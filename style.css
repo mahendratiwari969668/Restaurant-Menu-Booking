@@ -1,0 +1,312 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    row-gap: 1px;
+ 
+}
+
+
+body{
+    height: 300vh;
+    background: linear-gradient(0deg, rgb(20, 3, 3), rgb(6, 31, 6), rgb(3, 3, 33));
+}
+
+header{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+}
+
+.left{
+    margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    text-align: left;
+    width: 30vw;
+    left: 20px;
+    border-radius: 20px;
+   
+    
+}
+
+.food1{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    
+    
+    
+}
+li{
+    list-style-type: none;
+    
+    
+}
+.img1{
+    float: right;
+    background-color: orange;
+    border-radius: 50% 0px 0px 50%;
+    padding-right: 10px;
+    
+}
+
+.img2{
+   clear: left;
+    background-color: orange;
+    border-radius: 0px 50% 50% 0px;
+    padding-left: 1px;
+    float: left;
+    padding-right: 10px;
+
+}
+.right{
+    /* clear: left; */
+    float: right;
+     margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    text-align: left;
+    width: 30vw;
+    left: 20px;
+    border-radius: 20px;
+    
+
+}
+ .food2{
+    float: right;
+    clear: right;
+       margin: 1px;
+    padding: 10px;
+
+ }
+
+ .left1{
+    clear: both;
+    float: left;
+       margin: 10px;
+    padding: 10px;
+    background-color: orange;
+    text-align: left;
+    width: 30vw;
+    left: 20px;
+    border-radius: 20px;
+ }
+
+ .food3{
+    float: left;
+    clear: both;
+       margin: 1px;
+    padding: 10px;
+ }
+    .image3{
+        float: right;
+        clear:  right;
+        margin: 10px;
+        padding: 10px;
+        background-color: orange;
+        border-radius: 50% 0px 0px 50%;
+        
+    }
+    .img4{
+        position:relative;
+        float:unset;
+        width: 20vw;
+        clear:  right;
+        margin: 10px auto;
+        padding: 10px;
+        background: linear-gradient(1deg, rgb(208, 104, 104), rgb(124, 124, 217), rgb(214, 214, 105));
+        border-radius: 50% ;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 10vh;
+        padding: 10vh;
+    }
+    .name{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+    }
+
+    .seat{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .dish{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        
+    }
+    .check{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: 20px;
+        justify-items:center;
+
+    }
+    
+  
+   
+
+    button{
+        font-size: 3rem;
+        font-weight: bold;
+        margin-top: 90px;
+        border-radius: 20px;
+
+        -webkit-box-reflect: below 0px linear-gradient(transparent, transparent, rgba(12, 0, 0, 0.2) );
+        filter: drop-shadow(1px 1px 20px white);
+         background: linear-gradient(90deg, #26d0b1, #1768c5);
+
+    }
+    button:hover{
+         background: linear-gradient(90deg, #00ffd0, #0078ff);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    button:hover{
+        transform: scaleX(1.1);
+        transition: 0.5s;
+        border: 2px solid black;
+    }
+
+
+    .name{
+          font-size: 1rem;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fab3b3;
+        text-shadow: 0px 0px 40px #dd0000dc;
+        box-shadow: 10px 10px 20px rgb(227, 106, 136); 
+
+    }
+
+    .input{
+         font-size: 1rem;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fab3b3;
+        text-shadow: 0px 0px 40px #dd0000dc;
+        box-shadow: 10px 10px 20px rgb(227, 106, 136); 
+
+    }
+
+    .seat{
+  font-size: 1rem;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fab3b3;
+        text-shadow: 0px 0px 40px #dd0000dc;
+        box-shadow: 10px 10px 20px rgb(227, 106, 136); 
+
+    }
+
+    .seatno{
+          font-size: 1rem;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fab3b3;
+        text-shadow: 0px 0px 40px #dd0000dc;
+        box-shadow: 10px 10px 20px rgb(227, 106, 136); 
+
+    }
+    .dish{
+  font-size: 1rem;
+        font-weight: bold;
+        border-radius: 10px;
+        padding: 10px;
+        text-align: center;
+        background-color: #fab3b3;
+        text-shadow: 0px 0px 40px #dd0000dc;
+        box-shadow: 10px 10px 20px rgb(227, 106, 136); 
+
+    }
+
+    
+    input:hover{
+        background-color: #f6c9c9;
+
+    }
+
+    .booked{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background :linear-gradient(1deg, rgb(148, 78, 78), rgb(63, 63, 110), rgb(91, 137, 91));
+        margin: 0 auto;
+        width: 50vw;
+        color: black;
+        border-radius: 20px;
+        box-shadow: 10px 10px 20px 5px rgb(227, 106, 136); 
+
+    }
+
+    #booking{
+        font-size: 2rem;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px;
+        text-decoration: underline;
+    }
+    #customerName, #numberOfSeats, #selectedDishes{
+        font-size: 1.5rem;
+        font-weight: bold;
+        margin: 10px;
+        padding: 10px;
+        
+
+    }
+
+  .nav ul{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin: 20PX AUTO;
+    padding: 30px;
+    
+  }
+
+  .nav ul li:hover{
+    color: violet;
+    transform: scale(2);
+    transition: 0.5s ease;
+    cursor:context-menu;
+  }
+
+  
+
+
+    
+
+
+
+
+

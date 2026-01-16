@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+</head>
+<body>           
+            <header>
+             <h1>FOOD  MENU</h1>
+             <h4>Paucek and Lage Restaurant</h4>
+            </header>
+            <main>
+                <h3  class="left">Main Course</h3>
+                <div class="food1">
+                    <ul>
+                        <li>1 - Cheeseburger  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs 299</li>
+                        <li>2 - Chees Sandwich &nbsp;&nbsp;&nbsp;rs 399</li>
+                        <li>3 - Chickens Burger &nbsp;&nbsp;&nbsp;rs 499</li>
+                        <li>4 - Spicy Chicken &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs 499</li>
+                        <li>5 - Hot Dog &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs 199</li>
+                    </ul>
+                </div>
+                <div class="img1">
+
+                    <img width="120px" src="food1.png" >
+                </div>
+
+                <div class="img2">
+                    <img width="120px" src="food2.png" >
+                </div>
+
+                <h3 class="right">Appetizers</h3>
+                <div class="food2">
+                    <ul>
+                        <li>6 - Fruit Salad &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs 399</li>
+                        <li>7 - Cocktails &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs 499</li>
+                        <li>8 - Nuggets &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rs 299</li>
+                        <li>9 - Sandwich &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;rs 199</li>
+                        <li>10 - French Fries &nbsp;&nbsp;&nbsp;rs 99</li>
+                    </ul>
+                </div>
+                <h3 class="left1">Beverages</h3>
+                <div class="food3">
+                    <ul>
+                        <li>11 - MIlk Shake &nbsp;&nbsp;&nbsp;&nbsp; rs 199</li>
+                        <li>12 - Iced Tea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rs 99</li>
+                        <li>13 - Orange juice &nbsp;&nbsp; rs 149</li>
+                        <li>14 - Lemon Tea &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rs 99</li>
+                        <li>15 - Coffee &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; rs 199</li>
+                    </ul>
+                </div>
+                <div class="image3">
+                    <img width="120px" src="food3.png" >
+                </div>
+
+                <div class="img4">
+                    <img width="120px" src="food4.png" alt="">
+                </div>
+
+                <div class="container">
+                    <div class="name">
+                        <label for="name">Name</label><br>
+                        <input id="customerName" class="input" style="color: black;" type="text" placeholder="Write your name">
+                    </div>
+                    <div class="seat">
+                        <label for="seat">No. of Seats</label> <br>
+                        <input id="inputbox2" class="seatno" style="color: black;" type="number" placeholder="Enter no of seats">
+                    </div>
+                    <div id="dishes" class="dish">
+                        <label for="checkbox">Select Dish no.</label>
+                        <br>
+                        <label for="checkbox">1</label>
+                        <input type="checkbox" name="checkbox" id="one" class="check">
+                        
+                         <label for="checkbox">2</label>
+                        <input type="checkbox" name="checkbox" id="2" class="check">
+                         <label for="checkbox">3</label>
+                        <input type="checkbox" name="checkbox" id="3" class="check">
+                         <label for="checkbox">4</label>
+                        <input type="checkbox" name="checkbox" id="4" class="check">
+                         <label for="checkbox">5</label>
+                        <input type="checkbox" name="checkbox" id="5" class="check"> <br>
+                         <label for="checkbox">6</label>
+                        <input type="checkbox" name="checkbox" id="6" class="check">
+                         <label for="checkbox">7</label>
+                        <input type="checkbox" name="checkbox" id="7" class="check">
+                         <label for="checkbox">8</label>
+                        <input type="checkbox" name="checkbox" id="8" class="check">
+                         <label for="checkbox">9</label>
+                        <input type="checkbox" name="checkbox" id="9" class="check">
+                         <label for="checkbox">10</label>
+                        <input type="checkbox" name="checkbox" id="10" class="check">  <br>
+                         <label for="checkbox">11</label>
+                        <input type="checkbox" name="checkbox" id="11" class="check">
+                          <label for="checkbox">12</label>
+                        <input type="checkbox" name="checkbox" id="12" class="check">
+                         <label for="checkbox">13</label>
+                        <input type="checkbox" name="checkbox" id="13" class="check">
+                         <label for="checkbox">14</label>
+                        <input type="checkbox" name="checkbox" id="14" class="check">
+                         <label for="checkbox">15</label>
+                        <input type="checkbox" name="checkbox" id="15" class="check">
+                        
+
+                    </div>
+                  
+                    <div class="btn">
+                        <button onclick="bookNow()" style="color: rgb(255, 0, 34);">Book Now</button>
+                    </div>
+                </div>
+               
+
+                
+            </main>
+
+            <footer>
+                <div  class="booked">
+                    <ul >
+                        <li style="color: aqua;" id="booking">Your Booking Details</li>
+                        <li style="color: rgb(22, 239, 127);" id="customerName">Name: </li>
+                        <li style="color: rgb(22, 239, 127);" id="numberOfSeats">No. of Seats: </li>
+                        <li style="color: rgb(22, 239, 127);" id="selectedDishes">Selected Dishes: </li>
+                       
+                    </ul>
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li>About <a href="http://"></a></li>
+                        <li>Contact</li>
+                        <li>Email <a href="mailto:mahendratiwari8496@gmailcom"></a></li>
+                        <li>Services</li>
+                        <li>Blog</li>
+                    </ul>
+                </div>
+            </footer>
+            <script src="script.js"></script>
+            
+            
+        </body>
+        </html>
